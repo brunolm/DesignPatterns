@@ -62,6 +62,7 @@
     <Compile Include="BuilderTest.cs" />
     <Compile Include="FactoryTest.cs" />
     <Compile Include="PrototypeTest.cs" />
+    <Compile Include="SingletonTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj">
@@ -99,6 +100,10 @@
     <ProjectReference Include="..\DesignPatterns.Proxy\DesignPatterns.Proxy.csproj">
       <Project>{36ea9a67-5483-489c-b3fc-e52553ea7eff}</Project>
       <Name>DesignPatterns.Proxy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Singleton\DesignPatterns.Singleton.csproj">
+      <Project>{aa2c7dc3-ece2-469d-9834-4f31f8948760}</Project>
+      <Name>DesignPatterns.Singleton</Name>
     </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Strategy\DesignPatterns.Strategy.csproj">
       <Project>{d5311426-a2ee-4eac-a7a9-5caf3ad858ee}</Project>
