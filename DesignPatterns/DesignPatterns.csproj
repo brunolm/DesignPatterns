@@ -70,6 +70,7 @@
     <Compile Include="ChainOfResponsibilityTest.cs" />
     <Compile Include="MementoTest.cs" />
     <Compile Include="StateTest.cs" />
+    <Compile Include="VisitorTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj">
@@ -143,6 +144,10 @@
     <ProjectReference Include="..\DesignPatterns.Strategy\DesignPatterns.Strategy.csproj">
       <Project>{d5311426-a2ee-4eac-a7a9-5caf3ad858ee}</Project>
       <Name>DesignPatterns.Strategy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Visitor\DesignPatterns.Visitor.csproj">
+      <Project>{558be91c-e15c-4fd0-beec-0b860d67c312}</Project>
+      <Name>DesignPatterns.Visitor</Name>
     </ProjectReference>
     <ProjectReference Include="..\DesignPatters.Observer\DesignPatters.Observer.csproj">
       <Project>{5f0ae80e-86ba-442c-8fca-b885bca0da7d}</Project>
