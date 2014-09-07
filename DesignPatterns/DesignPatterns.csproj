@@ -59,11 +59,16 @@
     <Compile Include="CommandTest.cs" />
     <Compile Include="CompositeTest.cs" />
     <Compile Include="AbstractFactoryTest.cs" />
+    <Compile Include="BuilderTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj">
       <Project>{094bc372-b074-46e2-920c-0a010f2a2918}</Project>
       <Name>DesignPatterns.AbstractFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Builder\DesignPatterns.Builder.csproj">
+      <Project>{60cd716e-8053-4fac-82c5-e57606dacca2}</Project>
+      <Name>DesignPatterns.Builder</Name>
     </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Command\DesignPatterns.Command.csproj">
       <Project>{c0d38fb4-e6ed-4a4e-b937-e68b14a2d0a7}</Project>
