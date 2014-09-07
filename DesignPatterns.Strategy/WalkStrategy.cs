@@ -5,8 +5,11 @@ using System.Text;
 
 namespace DesignPatterns.Strategy
 {
-    public interface IDragonElementalBehavior
+    public class WalkStrategy : IDragonMoveStrategy
     {
-        void ChangeElement(Dragon dragon);
+        public string Move()
+        {
+            return "Walk";
+        }
     }
 }

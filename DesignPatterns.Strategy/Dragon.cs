@@ -1,25 +1,23 @@
-﻿namespace DesignPatterns.Strategy
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DesignPatterns.Strategy
 {
     public class Dragon
     {
-        private IDragonElementalBehavior elementMode;
+        public IDragonMoveStrategy MoveStrategy { get; set; }
 
-        public int ResistFire { get; set; }
-
-        public int ResistWater { get; set; }
-
-        public int ResistWind { get; set; }
-
-        public int ResistEarth { get; set; }
-
-        public IDragonElementalBehavior ElementMode
+        public Dragon()
         {
-            get { return elementMode; }
-            set
-            {
-                elementMode = value;
-                elementMode.ChangeElement(this);
-            }
+            MoveStrategy = new FlyStrategy();
+        }
+
+        public string Move()
+        {
+            return MoveStrategy.Move();
         }
     }
 }

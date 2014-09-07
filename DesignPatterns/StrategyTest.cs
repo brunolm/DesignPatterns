@@ -8,51 +8,20 @@ namespace DesignPatterns
     public class StrategyTest
     {
         [TestMethod]
-        public void ChangeElementInstanceFire()
+        public void MoveStrategyFly()
         {
             var dragon = new Dragon();
-            dragon.ElementMode = new FireBehavior();
+            dragon.MoveStrategy = new FlyStrategy();
 
-            Assert.AreEqual(100, dragon.ResistFire);
-            Assert.AreEqual(0, dragon.ResistWater);
-            Assert.AreEqual(25, dragon.ResistEarth);
-            Assert.AreEqual(50, dragon.ResistWind);
+            Assert.AreEqual("Fly", dragon.Move());
         }
-
         [TestMethod]
-        public void ChangeElementInstanceWater()
+        public void MoveStrategyWalk()
         {
             var dragon = new Dragon();
-            dragon.ElementMode = new WaterBehavior();
+            dragon.MoveStrategy = new WalkStrategy();
 
-            Assert.AreEqual(50, dragon.ResistFire);
-            Assert.AreEqual(100, dragon.ResistWater);
-            Assert.AreEqual(0, dragon.ResistEarth);
-            Assert.AreEqual(25, dragon.ResistWind);
-        }
-
-        [TestMethod]
-        public void ChangeElementInstanceEarth()
-        {
-            var dragon = new Dragon();
-            dragon.ElementMode = new EarthBehavior();
-
-            Assert.AreEqual(25, dragon.ResistFire);
-            Assert.AreEqual(50, dragon.ResistWater);
-            Assert.AreEqual(100, dragon.ResistEarth);
-            Assert.AreEqual(0, dragon.ResistWind);
-        }
-
-        [TestMethod]
-        public void ChangeElementInstanceWind()
-        {
-            var dragon = new Dragon();
-            dragon.ElementMode = new WindBehavior();
-
-            Assert.AreEqual(0, dragon.ResistFire);
-            Assert.AreEqual(25, dragon.ResistWater);
-            Assert.AreEqual(50, dragon.ResistEarth);
-            Assert.AreEqual(100, dragon.ResistWind);
+            Assert.AreEqual("Walk", dragon.Move());
         }
     }
 }

@@ -40,12 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dragon.cs" />
-    <Compile Include="EarthBehavior.cs" />
-    <Compile Include="FireBehavior.cs" />
-    <Compile Include="IDragonElementalBehavior.cs" />
+    <Compile Include="FlyStrategy.cs" />
+    <Compile Include="IDragonMoveStrategy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WaterBehavior.cs" />
-    <Compile Include="WindBehavior.cs" />
+    <Compile Include="WalkStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
