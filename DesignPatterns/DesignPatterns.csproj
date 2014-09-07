@@ -69,6 +69,7 @@
     <Compile Include="FlyweightTest.cs" />
     <Compile Include="ChainOfResponsibilityTest.cs" />
     <Compile Include="MementoTest.cs" />
+    <Compile Include="StateTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj">
@@ -134,6 +135,10 @@
     <ProjectReference Include="..\DesignPatterns.Singleton\DesignPatterns.Singleton.csproj">
       <Project>{aa2c7dc3-ece2-469d-9834-4f31f8948760}</Project>
       <Name>DesignPatterns.Singleton</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.State\DesignPatterns.State.csproj">
+      <Project>{bf8cda8c-7074-4b70-a827-fe501f0186a7}</Project>
+      <Name>DesignPatterns.State</Name>
     </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Strategy\DesignPatterns.Strategy.csproj">
       <Project>{d5311426-a2ee-4eac-a7a9-5caf3ad858ee}</Project>

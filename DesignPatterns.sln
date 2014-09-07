@@ -46,6 +46,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ChainOfRespo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Memento", "DesignPatterns.Memento\DesignPatterns.Memento.csproj", "{A7A94D99-35FA-4161-8A82-06FFAAC0C286}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.State", "DesignPatterns.State\DesignPatterns.State.csproj", "{BF8CDA8C-7074-4B70-A827-FE501F0186A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +130,10 @@ Global
 		{A7A94D99-35FA-4161-8A82-06FFAAC0C286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7A94D99-35FA-4161-8A82-06FFAAC0C286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7A94D99-35FA-4161-8A82-06FFAAC0C286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8CDA8C-7074-4B70-A827-FE501F0186A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8CDA8C-7074-4B70-A827-FE501F0186A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8CDA8C-7074-4B70-A827-FE501F0186A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8CDA8C-7074-4B70-A827-FE501F0186A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
