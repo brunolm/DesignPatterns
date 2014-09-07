@@ -56,8 +56,13 @@
     <Compile Include="ObserverTest.cs" />
     <Compile Include="MediatorTest.cs" />
     <Compile Include="ProxyTest.cs" />
+    <Compile Include="CommandTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns.Command\DesignPatterns.Command.csproj">
+      <Project>{c0d38fb4-e6ed-4a4e-b937-e68b14a2d0a7}</Project>
+      <Name>DesignPatterns.Command</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Decorator\DesignPatterns.Decorator.csproj">
       <Project>{cb525750-0f78-4188-9b63-0199f4511a5e}</Project>
       <Name>DesignPatterns.Decorator</Name>
