@@ -54,11 +54,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ObserverTest.cs" />
     <Compile Include="MediatorTest.cs" />
+    <Compile Include="ProxyTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.Mediator\DesignPatterns.Mediator.csproj">
       <Project>{52cf800f-96c8-40b2-bbf5-240f4fdd5038}</Project>
       <Name>DesignPatterns.Mediator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Proxy\DesignPatterns.Proxy.csproj">
+      <Project>{36ea9a67-5483-489c-b3fc-e52553ea7eff}</Project>
+      <Name>DesignPatterns.Proxy</Name>
     </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Strategy\DesignPatterns.Strategy.csproj">
       <Project>{d5311426-a2ee-4eac-a7a9-5caf3ad858ee}</Project>
