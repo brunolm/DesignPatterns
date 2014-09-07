@@ -61,6 +61,7 @@
     <Compile Include="AbstractFactoryTest.cs" />
     <Compile Include="BuilderTest.cs" />
     <Compile Include="FactoryTest.cs" />
+    <Compile Include="PrototypeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj">
@@ -90,6 +91,10 @@
     <ProjectReference Include="..\DesignPatterns.Mediator\DesignPatterns.Mediator.csproj">
       <Project>{52cf800f-96c8-40b2-bbf5-240f4fdd5038}</Project>
       <Name>DesignPatterns.Mediator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Prototype\DesignPatterns.Prototype.csproj">
+      <Project>{3ea3dc21-2aa4-449a-9932-737f105bd764}</Project>
+      <Name>DesignPatterns.Prototype</Name>
     </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Proxy\DesignPatterns.Proxy.csproj">
       <Project>{36ea9a67-5483-489c-b3fc-e52553ea7eff}</Project>
