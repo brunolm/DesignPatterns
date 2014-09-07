@@ -52,11 +52,16 @@
   <ItemGroup>
     <Compile Include="StrategyTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ObserverTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.Strategy\DesignPatterns.Strategy.csproj">
       <Project>{d5311426-a2ee-4eac-a7a9-5caf3ad858ee}</Project>
       <Name>DesignPatterns.Strategy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatters.Observer\DesignPatters.Observer.csproj">
+      <Project>{5f0ae80e-86ba-442c-8fca-b885bca0da7d}</Project>
+      <Name>DesignPatters.Observer</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
