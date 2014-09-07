@@ -63,11 +63,16 @@
     <Compile Include="FactoryTest.cs" />
     <Compile Include="PrototypeTest.cs" />
     <Compile Include="SingletonTest.cs" />
+    <Compile Include="AdapterTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj">
       <Project>{094bc372-b074-46e2-920c-0a010f2a2918}</Project>
       <Name>DesignPatterns.AbstractFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Adapter\DesignPatterns.Adapter.csproj">
+      <Project>{0f8cb1c5-c488-47b3-baab-688f1be1ffe7}</Project>
+      <Name>DesignPatterns.Adapter</Name>
     </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Builder\DesignPatterns.Builder.csproj">
       <Project>{60cd716e-8053-4fac-82c5-e57606dacca2}</Project>
