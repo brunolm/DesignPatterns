@@ -64,6 +64,7 @@
     <Compile Include="PrototypeTest.cs" />
     <Compile Include="SingletonTest.cs" />
     <Compile Include="AdapterTest.cs" />
+    <Compile Include="BridgeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj">
@@ -73,6 +74,10 @@
     <ProjectReference Include="..\DesignPatterns.Adapter\DesignPatterns.Adapter.csproj">
       <Project>{0f8cb1c5-c488-47b3-baab-688f1be1ffe7}</Project>
       <Name>DesignPatterns.Adapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Bridge\DesignPatterns.Bridge.csproj">
+      <Project>{8362f3c3-8f1b-4431-ab9d-58a2c42f969d}</Project>
+      <Name>DesignPatterns.Bridge</Name>
     </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Builder\DesignPatterns.Builder.csproj">
       <Project>{60cd716e-8053-4fac-82c5-e57606dacca2}</Project>
