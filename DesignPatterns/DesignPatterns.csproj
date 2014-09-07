@@ -60,6 +60,7 @@
     <Compile Include="CompositeTest.cs" />
     <Compile Include="AbstractFactoryTest.cs" />
     <Compile Include="BuilderTest.cs" />
+    <Compile Include="FactoryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj">
@@ -81,6 +82,10 @@
     <ProjectReference Include="..\DesignPatterns.Decorator\DesignPatterns.Decorator.csproj">
       <Project>{cb525750-0f78-4188-9b63-0199f4511a5e}</Project>
       <Name>DesignPatterns.Decorator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Factory\DesignPatterns.Factory.csproj">
+      <Project>{fc78f486-e968-4664-acb0-5c597ec83972}</Project>
+      <Name>DesignPatterns.Factory</Name>
     </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Mediator\DesignPatterns.Mediator.csproj">
       <Project>{52cf800f-96c8-40b2-bbf5-240f4fdd5038}</Project>
