@@ -57,11 +57,16 @@
     <Compile Include="MediatorTest.cs" />
     <Compile Include="ProxyTest.cs" />
     <Compile Include="CommandTest.cs" />
+    <Compile Include="CompositeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.Command\DesignPatterns.Command.csproj">
       <Project>{c0d38fb4-e6ed-4a4e-b937-e68b14a2d0a7}</Project>
       <Name>DesignPatterns.Command</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Composite\DesignPatterns.Composite.csproj">
+      <Project>{6ac7f8f7-ac54-47b0-a265-1d27f9fee50c}</Project>
+      <Name>DesignPatterns.Composite</Name>
     </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Decorator\DesignPatterns.Decorator.csproj">
       <Project>{cb525750-0f78-4188-9b63-0199f4511a5e}</Project>
