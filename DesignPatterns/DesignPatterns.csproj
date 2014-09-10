@@ -125,6 +125,10 @@
       <Project>{a7a94d99-35fa-4161-8a82-06ffaac0c286}</Project>
       <Name>DesignPatterns.Memento</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DesignPatterns.Observer\DesignPatterns.Observer.csproj">
+      <Project>{5f0ae80e-86ba-442c-8fca-b885bca0da7d}</Project>
+      <Name>DesignPatterns.Observer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DesignPatterns.Prototype\DesignPatterns.Prototype.csproj">
       <Project>{3ea3dc21-2aa4-449a-9932-737f105bd764}</Project>
       <Name>DesignPatterns.Prototype</Name>
@@ -148,10 +152,6 @@
     <ProjectReference Include="..\DesignPatterns.Visitor\DesignPatterns.Visitor.csproj">
       <Project>{558be91c-e15c-4fd0-beec-0b860d67c312}</Project>
       <Name>DesignPatterns.Visitor</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DesignPatters.Observer\DesignPatters.Observer.csproj">
-      <Project>{5f0ae80e-86ba-442c-8fca-b885bca0da7d}</Project>
-      <Name>DesignPatters.Observer</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

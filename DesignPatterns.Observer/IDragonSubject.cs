@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatters.Observer
+namespace DesignPatterns.Observer
 {
     public interface IDragonSubject
     {
