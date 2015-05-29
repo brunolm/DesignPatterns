@@ -8,19 +8,34 @@ namespace DesignPatterns
     public class BridgeTest
     {
         [TestMethod]
-        public void DragonMoveFly()
+        public void DragonBridge()
         {
             var dragon = new Dragon();
 
-            Assert.AreEqual("Flying", dragon.Move(new FlyMoveBridge()));
+            var xboxController = new XBoxController(dragon);
+            var psController = new PSController(dragon);
+
+            Assert.AreEqual("Run", xboxController.ButtonA());
+            Assert.AreEqual("Fly", xboxController.ButtonB());
+
+            Assert.AreEqual("Fly", psController.ButtonA());
+            Assert.AreEqual("Run", psController.ButtonB());
         }
 
-        [TestMethod]
-        public void DragonMoveWalk()
-        {
-            var dragon = new Dragon();
 
-            Assert.AreEqual("Walking", dragon.Move(new WalkMoveBridge()));
+        [TestMethod]
+        public void BikeBridge()
+        {
+            var bike = new Bike();
+
+            var xboxController = new XBoxController(bike);
+            var psController = new PSController(bike);
+
+            Assert.AreEqual("Run", xboxController.ButtonA());
+            Assert.AreEqual("Stop", xboxController.ButtonB());
+
+            Assert.AreEqual("Stop", psController.ButtonA());
+            Assert.AreEqual("Run", psController.ButtonB());
         }
     }
 }

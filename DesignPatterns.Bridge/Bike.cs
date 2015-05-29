@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Bridge
 {
-    public class Dragon : PlayableEntity
+    public class Bike : PlayableEntity
     {
         public override string HandleA()
         {
@@ -15,7 +15,7 @@ namespace DesignPatterns.Bridge
 
         public override string HandleB()
         {
-            return "Fly";
+            return "Stop";
         }
     }
 }
